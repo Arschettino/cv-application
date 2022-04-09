@@ -1,0 +1,50 @@
+.preview {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 650px;
+    border-radius: 5px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.title {
+    flex: 2;
+}
+
+.contact {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contact span {
+    padding-bottom: 4px;
+    font-size: 14px;
+}
+
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+
+.info {
+    display: flex;
+    gap: 5px;
+}
+
+.company {
+    color: #377ea4;
+    font-weight: 600;
+}

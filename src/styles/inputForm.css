@@ -1,0 +1,85 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.output {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.inputForm {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    width: 650px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(80, 80, 80);
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.personalData form,
+.experience form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+input {
+    height: 20px;
+    padding: 5px;
+}
+
+textarea {
+    padding: 5px;
+}
+
+button {
+    width: 75px;
+    padding: 3px 0px;
+    transition: 0.2s;
+    background-color: transparent;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+button.add {
+    border: 1px solid green;
+    color: green;
+}
+
+button.delete {
+    border: 1px solid red;
+    color: red;
+    margin-right: 10px;
+}
+
+button:active {
+    transition: 0s;
+}
+
+button.delete:active {
+    background-color: rgba(255, 195, 195, .3);
+    transform: translateY(0px);
+}
+
+button.add:active {
+    background-color: rgba(195, 255, 204, 0.3);
+    transform: translateY(0px);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 3px 0 hsl(0deg 0% 0% / 10%);
+
+}
